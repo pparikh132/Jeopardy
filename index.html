@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Jeopardy</title>
+  <link rel="stylesheet"
+        href="https://unpkg.com/bootstrap/dist/css/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css?family=Copse&display=swap"
+        rel="stylesheet">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+  <link rel="stylesheet" href="jeopardy.css">
+</head>
+<body>
+      <div class="container">
+            <div class="text-center">
+                  <h1 class="text-white">Jeopardy!</h1>
+                  <button type="button" class="btn btn-success btn-lg">Start</button>
+            </div>
+            <div class="text-center" id = "mySpinner">
+                  <br><br><br><br>
+                  <div class="spinner-border" role="status">
+                    <span class="sr-only">Loading...</span>
+                  </div>
+                </div>
+            <table id="myTable" class="table table-striped table-hover">
+
+            </table>
+            
+      </div>
+      
+
+<script src="https://unpkg.com/jquery"></script>
+<script src="https://unpkg.com/axios/dist/axios.js"></script>
+<script src="https://unpkg.com/lodash"></script>
+<script src="jeopardy.js"></script>
+
+</body>
+</html>
